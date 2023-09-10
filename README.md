@@ -3,11 +3,11 @@
 *Read this in [English](README_en.md).*
 
 ## 概要
-这是[A electricity theft detection method through contrastive learning in smart grid](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-023-02258-z)的唯一官方开源代码。我们尝试首次将*监督对比学习*应用于窃电检测，并采用*Largest triangle three bucket(LTTB)*算法来进行数据增广，获得了不错的效果。下图我们提出方法的框架图。
+这是[A electricity theft detection method through contrastive learning in smart grid](https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-023-02258-z)的唯一官方开源代码。我们尝试首次将*监督对比学习*应用于窃电检测，并采用 *Largest triangle three bucket(LTTB)* 算法来进行数据增广，获得了不错的效果。下图我们提出方法的框架图。
 ![](./image/framework.jpg)
 
 ## 数据集
-我们训练所用的数据集来源于国家电网，你可以从[这里](https://github.com/henryRDlab/ElectricityTheftDetection/)下载原始数据。下图是数据预处理的示意图。
+我们训练所用的数据集来源于国家电网的真实数据，你可以从[这里](https://github.com/henryRDlab/ElectricityTheftDetection/)下载原始数据。下图是数据预处理的示意图。
 ![](./image/data_preprocess.jpg)
 
 ## 训练

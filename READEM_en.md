@@ -5,7 +5,7 @@ This is the official open source code for [A electricity theft detection method 
 ![](./image/framework.jpg)
 
 ## Dataset
-The dataset we used for training comes from the State Grid Corporation of China. You can download the original data from [here](https://github.com/henryRDlab/ElectricityTheftDetection/). The diagram below shows the data preprocessing.
+The dataset we used for training comes from real data of the State Grid Corporation of China. You can download the original data from [here](https://github.com/henryRDlab/ElectricityTheftDetection/). The diagram below shows the data preprocessing.
 ![](./image/data_preprocess.jpg)
 
 ## Train
